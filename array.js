@@ -12,7 +12,6 @@ while(i<=100){
     i++;
 }
 
-
 let price = [5000,3863,9365,30632,9764,693075,743956,999330]
 let index = 0;
 for(let rupee of price){
