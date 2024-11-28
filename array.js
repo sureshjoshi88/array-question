@@ -20,6 +20,7 @@ for(let rupee of price){
     price[index] = price[index]-ofer;
     console.log(`the discount new value is :-${price[index]}`);
     index++;
+    
 }
 
 
