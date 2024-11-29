@@ -24,3 +24,15 @@ for(let rupee of price){
 }
 
 
+let sentence = "hello world hello universe hello world";
+let obj = {}
+sentence = sentence.split(" ");
+for(let i = 0;i<sentence.length;i++){
+    let value = sentence[i];
+    if(obj[value]){
+        obj[value] +=1
+    }else{
+        obj[value]=1
+    }
+}
+console.log(obj);
