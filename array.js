@@ -36,3 +36,20 @@ for(let i = 0;i<sentence.length;i++){
     }
 }
 console.log(obj);
+
+
+let arr = ["a","b","a","c","e","b","d","k"];
+let newarr = [];
+let index1 = 0;
+for(let i = 0;i<arr.length;i++){
+    for(let j = 0;j<arr.length;j++){
+        if(arr[i]==arr[j]){
+            index1++;
+        }
+    }
+    if(index1<2){
+        newarr.push(arr[i])
+    }
+    index1=0;
+}
+console.log(newarr);
