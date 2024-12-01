@@ -23,7 +23,6 @@ for(let rupee of price){
     
 }
 
-
 let sentence = "hello world hello universe hello world";
 let obj = {}
 sentence = sentence.split(" ");
