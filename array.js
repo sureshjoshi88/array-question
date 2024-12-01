@@ -37,7 +37,7 @@ for(let i = 0;i<sentence.length;i++){
 console.log(obj);
 
 
-let arr = ["a","b","a","c","e","b","d","k"];
+let arr = ["a","b","a","c","e","b","d","k","o"];
 let newarr = [];
 let index1 = 0;
 for(let i = 0;i<arr.length;i++){
