@@ -14,7 +14,6 @@ var total= sum/index;
 console.log(total);
 
 
-
 let agge = [12,44,35,17,19,20,14]
 function myfunc (agge){
     let total = agge>18;
