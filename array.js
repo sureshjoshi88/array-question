@@ -52,3 +52,8 @@ for(let i = 0;i<arr.length;i++){
     index1=0;
 }
 console.log(newarr);
+
+
+let arr12 = ["apple","mango","orange","banana"];
+arr.sort()
+console.log(arr12);
