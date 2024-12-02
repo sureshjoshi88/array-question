@@ -12,3 +12,14 @@ for(var i = 0;i<arr.length;i++){
 }
 var total= sum/index;
 console.log(total);
+
+
+
+let agge = [12,44,35,17,19,20,14]
+function myfunc (agge){
+    let total = agge>18;
+    return(total)
+
+}
+let result = myfunc(agge.find(myfunc));
+console.log(result); 
