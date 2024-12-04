@@ -22,3 +22,12 @@ function myfunc (agge){
 }
 let result = myfunc(agge.find(myfunc));
 console.log(result); 
+
+
+
+let arr = [1,2,3,4,5,6]
+let values1 = arr.map((number)=>{
+    let final = number*=4;
+    return(final)
+})
+console.log(values1);
