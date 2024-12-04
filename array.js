@@ -57,3 +57,16 @@ console.log(newarr);
 let arr12 = ["apple","mango","orange","banana"];
 arr.sort()
 console.log(arr12);
+
+let movies = ['Avengers', 'Kick', 'Endgame'];
+let userInput = prompt("Search for movie : ");
+
+// ****************************************************
+let lowerCaseInput = userInput.toLowerCase();
+let lowerCaseMovies = [];
+
+for(var i=0;i<movies.length;i++){
+    lowerCaseMovies.push(movies[i].toLowerCase())
+}
+
+console.log(lowerCaseMovies.includes(lowerCaseInput));
