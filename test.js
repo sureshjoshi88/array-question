@@ -34,3 +34,22 @@ console.log(values1);
 const numbers = [1,2,3,4,5,6,7,8];
 let arr  = numbers.filter((num)=>num%2!=0);
 console.log(arr)
+
+
+let arr = [
+    {
+        name:"samsung",
+        price:30000,
+    },
+    {
+        name:"samsung",
+        price:40000,
+    },
+]
+let total = arr.reduce(addvalue);
+
+function addvalue(prevalue,currentvalue){
+    return prevalue.price+currentvalue.price;
+
+}
+console.log(total);
