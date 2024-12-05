@@ -53,3 +53,8 @@ function addvalue(prevalue,currentvalue){
 
 }
 console.log(total);
+
+
+let arr = [1,2,3,4,5,6,7];
+let result1 = arr.map((number)=>number*83);
+console.log(result1);
