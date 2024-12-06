@@ -58,3 +58,31 @@ console.log(total);
 let arr = [1,2,3,4,5,6,7];
 let result1 = arr.map((number)=>number*83);
 console.log(result1);
+
+
+
+let arr = [
+    {
+        name:"samsung",
+        price:30000,
+    },
+    {
+        name:"vivo",
+        price:60000,
+    },
+    {
+        name:"oppo",
+        price:50000,
+    },
+    {
+        name:"apple",
+        price:70000,
+    },
+]
+
+let value = arr.reduce((prevalue,cuurentvalue)=>{
+    console.log(prevalue,cuurentvalue)
+    let result = prevalue.price+cuurentvalue.price;
+    return{price:result}
+});
+console.log(value);
