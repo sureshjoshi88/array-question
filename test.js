@@ -84,3 +84,23 @@ let value = arr.reduce((prevalue,cuurentvalue)=>{
     return{price:result}
 });
 console.log(value);
+
+
+const products = [
+    { name: 'Shirt',
+         price: 25 },
+    { name: 'Pants',
+         price: 40 },
+    { name: 'Shoes',
+         price: 60 },
+    { name: 'Socks',
+         price: 5 }
+  ];
+
+let values = products.filter((num)=>{
+    return num.price>30
+}).reduce((pre,current)=>{
+    let result = pre.price+current.price;
+    return {price:result}
+})
+console.log(values);
