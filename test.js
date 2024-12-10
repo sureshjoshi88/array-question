@@ -104,3 +104,25 @@ let values = products.filter((num)=>{
     return {price:result}
 })
 console.log(values);
+
+
+let arr = [
+    {
+        name:"abhishek",
+        age:13
+    },
+    {
+        name:"kavita",
+        age:12
+    },
+    {
+        name:"suresh",
+        age:19
+        },
+]
+
+let total  = arr.reduce((pre,curr)=>{
+    let result = pre.age+curr.age;
+    return {age:result}
+})
+console.log(total);
