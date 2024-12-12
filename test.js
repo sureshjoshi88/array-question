@@ -126,3 +126,9 @@ let total  = arr.reduce((pre,curr)=>{
     return {age:result}
 })
 console.log(total);
+
+let array = [1,2,3,4,5,6,7,8,9]
+let reslut = array.filter((num)=>{
+    return num>5
+});
+console.log(reslut);
