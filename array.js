@@ -70,3 +70,13 @@ for(var i=0;i<movies.length;i++){
 }
 
 console.log(lowerCaseMovies.includes(lowerCaseInput));
+
+
+function multply(...number){
+    return number*number
+}
+
+let ar = [2,3,10,9,4,8,7,5,6]
+for(let i = 0;i<ar.length;i++){
+    console.log(multply(ar[i]))
+}
