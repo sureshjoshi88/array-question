@@ -132,3 +132,19 @@ let reslut = array.filter((num)=>{
     return num>5
 });
 console.log(reslut);
+
+
+let obj = {product:"samsung s23",price: 34009}
+
+let mypromise = new Promise((resolve,reject)=>{
+    if(obj.price%2==0){
+        resolve(obj.price)
+    }else{
+        reject(obj.price)
+    }
+}).then((data)=>{
+    console.log(data-=1000,"this is even");  
+    
+}).catch((value)=>{
+    console.log(value+=1000,"this is odd");
+});
