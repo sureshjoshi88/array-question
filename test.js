@@ -177,3 +177,12 @@ switch(day){
     default:
         console.log("invalid days");    
 }
+
+let value1 = 6756;
+let output = 0;
+while(value1>0){
+    let reminder = value1%10;
+    output = output*10 +reminder
+    console.log(reminder);
+    value1 = Math.floor(value1/10)
+}
