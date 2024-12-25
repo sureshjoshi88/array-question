@@ -212,3 +212,11 @@ let valuess = arrobj.map((num)=>{
    }
 })
 console.log(valuess);
+
+
+let numberss = [1234567890, 9876543210, 1112223333, 5556667777, 8889990000]
+let results = numberss.map(myfunc)
+    function myfunc(numberss){
+        return "91 " + numberss
+    }
+console.log(results);
