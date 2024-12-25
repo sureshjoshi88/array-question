@@ -205,15 +205,12 @@ let arrobj = [
         salery:30000
     }
 ]
-
 let valuess = arrobj.map((num)=>{
    return {age:num.age,
     names:num.names
    }
 })
 console.log(valuess);
-
-
 let numberss = [1234567890, 9876543210, 1112223333, 5556667777, 8889990000]
 let results = numberss.map(myfunc)
     function myfunc(numberss){
