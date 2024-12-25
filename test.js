@@ -186,3 +186,29 @@ while(value1>0){
     console.log(reminder);
     value1 = Math.floor(value1/10)
 }
+
+
+let arrobj = [
+    {
+        names:"suresh",
+        age:20,
+        salery:50000
+    },
+    {
+        names:"rahul",
+        age:22,
+        salery:40000
+    },
+    {
+        names:"ankit",
+        age:21,
+        salery:30000
+    }
+]
+
+let valuess = arrobj.map((num)=>{
+   return {age:num.age,
+    names:num.names
+   }
+})
+console.log(valuess);
