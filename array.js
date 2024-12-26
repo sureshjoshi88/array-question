@@ -80,3 +80,19 @@ let ar = [2,3,10,9,4,8,7,5,6]
 for(let i = 0;i<ar.length;i++){
     console.log(multply(ar[i]))
 }
+
+
+
+let input = Number(prompt("enter a number :-"))
+let arrs = [1,2,3,4,5,6]
+let factorial = 1
+if(arrs.includes(input)){
+    for(let i = input;i>0;i--){
+        factorial = factorial*i
+    }
+    console.log(factorial);
+    
+}else{
+    console.log("the value for not present in arr");
+    
+}
