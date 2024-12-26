@@ -84,7 +84,7 @@ for(let i = 0;i<ar.length;i++){
 
 
 let input = Number(prompt("enter a number :-"))
-let arrs = [1,2,3,4,5,6]
+let arrs = [1,2,3,4,5,6,7,8]
 let factorial = 1
 if(arrs.includes(input)){
     for(let i = input;i>0;i--){
