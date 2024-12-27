@@ -217,3 +217,12 @@ let resultss = numberss.map(myfunc)
         return "91 " + numberss
     }
 console.log(resultss);
+
+
+let input  = Number(prompt("Enter a number"))
+for(let i = 0;i<input;i++){
+    if(input%i==0){
+        console.log(i);
+        
+    }
+}
