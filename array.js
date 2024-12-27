@@ -96,3 +96,11 @@ if(arrs.includes(input)){
     console.log("the value for not present in arr");
     
 }
+
+
+let arred  = [1,2,4,6,9,66,43]
+let total = arred.every((value)=>{
+    return value%2==0
+
+})
+console.log(total);
