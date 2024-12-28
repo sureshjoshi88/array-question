@@ -109,3 +109,7 @@ console.log(total);
 let myar = [1,2,3,4,5,6,7,8]
 myar.fill(0,2,5)
 console.log(myar);
+
+
+const newarray = new Array(10).fill(-1)
+console.log(newarray);
