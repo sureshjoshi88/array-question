@@ -113,3 +113,22 @@ console.log(myar);
 
 const newarray = new Array(10).fill(-1)
 console.log(newarray);
+
+
+
+let inputt = Number(prompt("Enter a number :-"));
+let inputArray = [1,2,3,4,5,6,7]
+let factroil = 1
+switch (true) {
+    case inputArray.includes(inputt):
+        for(let i = inputt;i>=1;i--){
+            factroil = factroil*i
+        }
+        console.log(factroil);
+        break;
+
+        default:
+            console.log("the input value is not for present in new array so please try again");
+            
+            break;
+    }
