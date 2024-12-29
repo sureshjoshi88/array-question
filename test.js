@@ -244,6 +244,6 @@ Promise.all(mypromises).then((data)=>{
     console.log(`the image was succesfully uploading ${data}`);
     
 }).catch((err)=>{
-    console.log(`the image was rejected ERROR :${err}`);
+    console.log(`the image was not for uploading ERROR :${err}`);
     
 })
