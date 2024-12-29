@@ -226,3 +226,24 @@ for(let i = 0;i<=input;i++){
         
     }
 }
+
+
+
+
+let arrr = ["photo1","photo2","photo3"]
+let mypromises = arrr.map((photo)=>{
+    return new Promise((resolve,reject)=>{
+        if(photo=="photo2"){
+            resolve(photo)
+        }else{
+            reject(photo)
+        }
+    })
+})
+Promise.all(mypromises).then((data)=>{
+    console.log(`the image was succesfully uploading ${data}`);
+    
+}).catch((err)=>{
+    console.log(`the image was rejected ERROR :${err}`);
+    
+})
