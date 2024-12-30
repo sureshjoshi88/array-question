@@ -247,3 +247,13 @@ Promise.all(mypromises).then((data)=>{
     console.log(`the image was not for uploading ERROR :${err}`);
     
 })
+
+const person = {
+    firstName:"abhishek",
+    age:13,
+    about:function(){
+        console.log(`the person name is ${this.firstName} and my age is ${this.age}`);
+        
+    }
+}
+person.about();
