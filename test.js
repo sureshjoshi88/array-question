@@ -250,7 +250,7 @@ Promise.all(mypromises).then((data)=>{
 
 const person = {
     firstName:"abhishek",
-    age:13,
+    age:15,
     about:function(){
         console.log(`the person name is ${this.firstName} and my age is ${this.age}`);
         
