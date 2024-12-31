@@ -257,3 +257,15 @@ const person = {
     }
 }
 person.about();
+
+const people = {
+    name:"suresh",
+    age:20,
+    salery:200000,
+    about:function(){
+        console.log(`the name is ${this.name} and age is ${this.age} and salery ${this.salery}`);
+        
+    }
+}
+
+people.about();
