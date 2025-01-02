@@ -132,3 +132,20 @@ switch (true) {
             
             break;
     }
+
+
+    const arr1 = [1, 3, 5, 7];
+const arr2 = [2, 4, 6, 8];
+for (let i = 0; i < arr2.length; i++) {
+    arr1.push(arr2[i])
+}
+for(let j = 0;j<arr1.length;j++){
+   for(let k = j+1;k<arr1.length;k++){
+    if(arr1[j]>arr1[k]){
+        let temp = arr1[j];
+        arr1[j]=arr1[k]
+        arr1[k]=temp
+    }
+   }
+}
+console.log(arr1);
