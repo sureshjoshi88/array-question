@@ -269,3 +269,27 @@ const people = {
 }
 
 people.about();
+
+
+
+const transactions = [
+    { amount: 100, type: 'credit' },
+    { amount: 50, type: 'debit' },
+    { amount: 200, type: 'credit' },
+    { amount: 150, type: 'debit' }
+  ];
+  let credits = transactions.filter((value)=>{
+    let creditSum =  value.type=="credit"
+    return creditSum
+  }).reduce((curr,pre)=>{
+    let sum = curr.amount+pre.amount;
+    return sum
+  });
+  let debits = transactions.filter((value)=>{
+        let creditSum =  value.type=="debit"
+        return creditSum
+      }).reduce((curr,pre)=>{
+        let sum = curr.amount+pre.amount;
+        return sum
+      })
+      console.log(credits-debits);
