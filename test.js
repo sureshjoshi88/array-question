@@ -273,7 +273,7 @@ people.about();
 
 
 const transactions = [
-    { amount: 100, type: 'credit' },
+    { amount: 110, type: 'credit' },
     { amount: 50, type: 'debit' },
     { amount: 200, type: 'credit' },
     { amount: 150, type: 'debit' }
