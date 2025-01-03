@@ -149,3 +149,10 @@ for(let j = 0;j<arr1.length;j++){
    }
 }
 console.log(arr1);
+
+
+let newarra = ["suresh","ankit","viaksh","aman","rahul","neeraj","kanish"]
+for(let i in newarra){
+    console.log(i);
+    
+}
