@@ -42,7 +42,7 @@ let arr = [
         price:30000,
     },
     {
-        name:"samsung",
+        name:"apple",
         price:40000,
     },
 ]
