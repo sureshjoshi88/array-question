@@ -162,3 +162,15 @@ for(let fruit of newar){
     console.log(fruit);
     
 }
+
+
+const newObject = {
+    name:"suresh",
+    age:20,
+    district:"Nagaur"
+}
+
+for(let obj in newObject){
+    console.log(obj);
+    
+}
