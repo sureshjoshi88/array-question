@@ -156,3 +156,9 @@ for(let i in newarra){
     console.log(i);
     
 }
+
+let newar = ["apple","mango","banana","grapes","date","orange"]
+for(let fruit of newar){
+    console.log(fruit);
+    
+}
