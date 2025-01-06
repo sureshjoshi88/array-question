@@ -174,3 +174,18 @@ for(let obj in newObject){
     console.log(obj);
     
 }
+
+
+let newarvalue = [1,2,3,46,99]
+let newae2 = [4,6,8,88,54]
+let result  = [...newarvalue,...newae2]
+for(let i = 0;i<result.length;i++){
+    for(let j = i+1;j<result.length;j++){
+        if(result[i]>result[j]){
+            let value = result[i]
+            result[i]=result[j]
+            result[j]=value
+        }
+    }
+}
+console.log(result);
