@@ -302,3 +302,10 @@ const transactions = [
 
     let value3 = Math.max(1,2,3,4)
     console.log(value3);
+
+
+    let value4 = Math.min(1,2,3,4)
+    console.log(value4);
+    
+    let valu5 = Math.ceil(3.3)
+    console.log(valu5);
