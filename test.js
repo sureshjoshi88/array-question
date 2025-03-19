@@ -309,3 +309,14 @@ const transactions = [
     
     let valu5 = Math.ceil(3.3)
     console.log(valu5);
+
+
+     let value6 = Math.random()*5
+    console.log(value6);
+
+    let value7 = Math.pow(2,10)
+    console.log(value7);
+
+    
+    let value8 = Math.sqrt(36)
+    console.log(value8);
