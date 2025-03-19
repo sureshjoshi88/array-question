@@ -293,3 +293,12 @@ const transactions = [
         return sum
       })
       console.log(credits-debits);
+
+
+
+
+    let value2 = Math.round(5.7);
+    console.log(value2);
+
+    let value3 = Math.max(1,2,3,4)
+    console.log(value3);
