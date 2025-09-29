@@ -196,7 +196,7 @@ let target = 12;
 for (let i = 0; i < arrvalue.length; i++) {
     for (let j = i; j < arrvalue.length-1; j++) {
     if(arrvalue[i]+arrvalue[j] == target){
-        console.log(arrvalue[i],arrvalue[j]);
+        console.log(arrvalue[i],",",arrvalue[j]);
         
     }        
     }    
