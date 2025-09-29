@@ -189,3 +189,15 @@ for(let i = 0;i<result.length;i++){
     }
 }
 console.log(result);
+
+
+const  arrvalue = [1,3,5,6,7,8,4,9];
+let target = 12;
+for (let i = 0; i < arrvalue.length; i++) {
+    for (let j = i; j < arrvalue.length-1; j++) {
+    if(arrvalue[i]+arrvalue[j] == target){
+        console.log(arrvalue[i],arrvalue[j]);
+        
+    }        
+    }    
+}
